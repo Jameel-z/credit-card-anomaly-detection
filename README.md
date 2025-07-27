@@ -1,32 +1,32 @@
-# Credit Card Anomaly Detection with Isolation Forest
+# Credit Card Fraud Detection
 
-This project was completed for the BLACKBOX AI 24-hour ML Challenge. It uses unsupervised machine learning (Isolation Forest) to detect fraudulent credit card transactions.
+This project uses **Isolation Forest**, an unsupervised machine learning model, to detect fraudulent transactions in credit card data.
 
-## 🔍 Objective
-Detect anomalies in credit card transactions and evaluate results using ROC-AUC and visualizations.
+## Dataset
+- [Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
-## 📁 Dataset
-- Source: [Kaggle Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
-- Sample size used: 5,000 rows (stratified sampling)
+## Model
+- Isolation Forest
+- Handles class imbalance using selective undersampling
 
-## ⚙️ Tools & Libraries
-- Python, Google Colab
-- scikit-learn, pandas, matplotlib, seaborn
+## Output
+- ROC-AUC Score
+- Confusion Matrix
+  [[4754 79]
+[ 238 254]]
+- Classification Report
+- ROC Curve Plot
 
-## 🧠 Model
-- Isolation Forest (unsupervised anomaly detection)
-- Evaluation: ROC-AUC, Confusion Matrix
+  ## 📈 Evaluation
+- **ROC-AUC Score:** 0.75
+- **Accuracy:** 94%
+- **Precision (Fraud):** 76%
+- **Recall (Fraud):** 52%
+- **F1 Score (Fraud):** 0.62
 
-## 📊 Results
-- ROC-AUC: `xx.xx`
-- Precision: `xx.xx`, Recall: `xx.xx`
-- [Insert image of ROC curve or confusion matrix here]
+## How to Run
+Open the notebook in Google Colab and upload the dataset when prompted.
 
-## 📂 Structure
-- `notebook.ipynb`: Full code and outputs
-- `README.md`: Project explanation
-- `dataset/`: CSV or link to Kaggle dataset
-- `outputs/`: (Optional) Plots/images
+---
 
-## 📬 Submission
-Submitted by [Your Name] to BLACKBOX AI ML Challenge.
+Made with ❤️ for the challenge submission.
