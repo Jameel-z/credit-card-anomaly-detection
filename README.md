@@ -15,7 +15,7 @@ This project uses **Isolation Forest**, an unsupervised machine learning model, 
   [[4754 79]
 [ 238 254]]
 - Classification Report
-- ROC Curve Plot
+- ROC Curve Plot ![Roc Curve](roc-curve.png)
 
   ## 📈 Evaluation
 - **ROC-AUC Score:** 0.75
